@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" href="style.css">
+    <title>CobraBet</title>
+</head>
+<body> 
+    <div class="container">
+        <!-- dislay flex jusify content space-between -->
+        <div class="items-top flex">    
+                <img class="logo"src="assets/logo_cobrabet-2x.webp" alt="">  
+        </div>
+        <div class="main-text-container flex">
+            <img class="main-text-image" src="Assets/hero-image_cobrabet.webp" alt="">
+            <picture>
+                <source media="(min-width:1024px)" srcset="assets/main-text-desk.webp"> 
+                    <img class="main-text" src="Assets/mobile/title-text_cobrabet_mobile.svg" alt="">
+            </picture>
+            
+        </div>
+        <div class="main-button flex">
+            <img class="button-signup" src="assets/button_cobrabet-2x.webp" alt="">
+            <img class="league" src="assets/league-logos_cobrabet.svg" alt="">
+        </div>
+        <div class="steps flex">
+            <img class="step-1"src="assets/step1_cobrabet_desktop.svg" alt="">
+        
+            <img src="Assets/arrow.svg" alt="" class="arrow">
+
+            <img class="step-2"src="assets/step2_cobrabet_desktop.svg" alt="">
+           
+            <img src="Assets/arrow.svg" alt="" class="arrow">
+
+            <img class="step-3" src="assets/step3_cobrabet_desktop.svg" alt="">
+           
+        </div>
+
+        <div class="bottom-logos">
+            <img class="askgamblers" src="Assets/AskGamblers-logologo.svg" alt="">
+            <img class="casino-daddy" src="Assets/Casino-daddy-logo.svg" alt="">
+        </div>
+    <div class="slider-bottom">
+        <div class="logo-slider logo-slider--other" ng-init="payments = [
+        'visa', 'maestro', 'mastercard', 'wirecard', 'neteller', 'skrill', 'ecopayz', 'yandex', 'devcode-interac', 'devcode-einterac', 'paysafecard', 'idebit', 'instadebit', 'rapid-transfer', 'neosurf', 'devcode_sticpay', 'devcode-siru', 'devcode-venuspoint', 'devcode-bankintl', 'purplepay', 'alfaclick', 'bank_transfer', 'bitcoin_coinspaid', 'bitcoincash_coinspaid', 'ethereum_coinspaid', 'litecoin_coinspaid', 'coinspaid'
+    ]">
+        <div class="logo-slider__list" data-uix-bxslider="hideControlOnEnd: true, infiniteLoop: false, maxSlides:30, adaptiveHeight:true, touchEnabled: false, moveSlides: 1">
+            <div class="logo-slider__item" ng-repeat="item in payments" data-notify-when-repeat-finished>
+                <img ng-src="{{$root.CDN.SERVER}}/logos/payments/white/{{item}}.svg"/>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,277 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+html,
+body {
+  background-image: url(Assets/wallpaper_cobrabet.webp) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  padding: 0px !important;
+}
+
+p {
+  margin: 0 0 0px !important;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  align-content:center;
+}
+
+
+.items-top
+{
+  margin:24px 0 12px 0;
+}
+
+.logo
+{
+  width:142px;
+  height:36px;
+}
+
+.main-text-container
+{
+  flex-direction: column;
+}
+
+
+.main-text-image
+{
+  height:218px;
+  mix-blend-mode:lighten;
+}
+
+.main-text
+{
+ width:289px; 
+}
+
+
+.main-button
+{
+  flex-direction:column;
+  gap:24px;
+  margin-bottom:32px;
+}
+.button-signup
+{
+width:189px;
+height:74px;
+}
+
+.league
+{
+ 
+  width:248px;
+  height:46px;
+}
+
+.steps
+{
+  background-color:rgba(10, 11, 13, 0.6);
+  margin-bottom:24px;
+}
+
+.step-1 , .step-2 , .step-3
+{
+  width:90px;
+  height:58px;
+}
+
+.arrow
+{
+  width:20px;
+  height:12px;
+}
+
+.bottom-logos
+{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap:8px;
+  margin-bottom:24px;
+ 
+}
+
+.askgamblers , .casino-daddy
+{
+  width: 122px;
+  height: 36px;
+}
+
+.slider-bottom
+{
+  height:60px;
+  background-color: black;
+  padding-bottom: 4px;
+}
+
+
+@media(min-width:700px)
+{
+
+  .main-text-image
+  {
+    height:350px;
+    mix-blend-mode:lighten;
+  }
+
+  .step-1 , .step-2 , .step-3
+  {
+  width:75px;
+  }
+}
+
+
+@media(min-width:800px)
+{
+
+  .main-text-image
+  {
+    height:498px;
+  
+    mix-blend-mode:lighten;
+  }
+
+  
+  .main-text
+  {
+  width:450px;
+  height:216px;
+  }
+
+  .step-1 , .step-2 , .step-3
+  {
+  width:190px;
+  height:124px;
+  }
+
+  .arrow
+  {
+    width:56px;
+    height:40px;
+  }
+
+  .button-signup
+  {
+    width:295px;
+    height:118px;
+  }
+
+  .items-top
+  {
+    justify-content: flex-start;
+    width:80%;
+    padding-left:5rem;
+  }
+
+  .logo
+  {
+    Width:247px;
+    Height:64px;
+    margin-top:56px;
+  }
+
+  .league
+  {
+    width:324px;
+    height:60px;
+    z-index: 1;
+    position: absolute;
+    top:9%;
+    right:-12%;
+    transform: translate(-50%, -50%);
+  }
+
+  .askgamblers , .casino-daddy
+{
+  width:190px;
+  height:56px;
+}
+}
+
+
+@media(min-width:1024px)
+{
+
+  .main-text-container
+  {
+    flex-direction:row;
+    
+  }
+
+  .main-text-image
+  {
+    order:1;
+    width:55%;
+    height:auto;
+    padding-right:2rem;
+    max-width:1190px;
+  }
+  .main-text
+  {
+  padding-left:5rem;
+  height:80%;
+  max-width:860px;
+  }
+
+  .button-signup
+  {
+  display: none;
+  }
+
+  
+  }
+
+
+@media(min-width:1320px)
+{
+  .league
+  {
+    right: 1%!important;;
+  }
+
+  .main-text
+  {
+  padding-left:5rem;
+  width:40rem;
+  max-width:860px;
+  }
+
+  .steps
+  {
+    gap:96px;
+  }
+   
+}
+
+
+@media(min-width:1650px)
+{
+  .league
+  {
+    top:9%;
+  }
+ 
+}
