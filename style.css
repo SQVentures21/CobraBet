@@ -14,7 +14,6 @@ a {
 html,
 body {
   background-image: url(Assets/wallpaper_cobrabet.webp) !important;
-  background-repeat: no-repeat !important;
   background-size: cover;
 }
 
@@ -211,8 +210,7 @@ height:74px;
 }
 }
 
-
-@media(min-width:1024px)
+@media(min-width:1080px)
 {
 
   .main-text-container
@@ -242,18 +240,21 @@ height:74px;
   display: none;
   }
 
-  .league
-  {
-    top: 9%;
-  }
-  
-  .main-button
+ .main-button
  {
    margin-bottom:0;
  }
 
+  .league
+  {
+    top: 9%;
+  }
+
   
   }
+
+ 
+
 
 
 @media(min-width:1320px)
@@ -317,15 +318,16 @@ height:74px;
   {
     justify-content: flex-start;
     width:80%;
-    padding-left:17vw;
+    padding-left:14vw;
   }
-  
-   .steps
+
+  .steps
   {
     margin-top:7.5rem;
   }
  
 }
+
 
 
 @media(min-width:2600px)
@@ -338,5 +340,4 @@ height:74px;
   }
  
 }
-
 
